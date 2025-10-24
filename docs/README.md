@@ -1,0 +1,11 @@
+```markdown
+# OctoAcme — Project Management Processes (overview)
+
+This docs folder captures OctoAcme's lightweight, iterative approach to delivering customer value. Projects move through a concise lifecycle: Initiation (one‑pager, stakeholder alignment, go/no‑go), Planning (kickoff, prioritized backlog, estimates, Definition of Done), Execution (timeboxed iterations with PRs and CI), Release (pre-release checks, smoke tests, rollback plan), and Close/Retrospective (action items and follow-up). Key artifacts include the Project One‑pager, backlog and sprint artifacts, Risk Register, release notes, and retrospective action items.
+
+Workflows emphasize small, incremental delivery and engineering hygiene. Teams use a project board (Backlog → Ready → In Progress → In Review → QA → Done), create small PRs that link to issues and acceptance criteria, and run automated tests and security scans in CI before requesting reviews. Releases follow a checklist: passing CI, drafted release notes, staged smoke tests, and a rollback plan. Manual QA and targeted end‑to‑end smoke tests are used where needed to validate critical flows.
+
+Roles and responsibilities are clearly defined and aligned to outcomes. Product Managers (PdMs) own the problem definition, success metrics, and backlog prioritization; Project Managers (PMs) coordinate schedules, risks, and stakeholder communication; Developers implement, test, and review code; and QA validates acceptance criteria. Regular cadences — daily standups, weekly delivery syncs, PM–PdM alignment, and monthly stakeholder updates — keep information flowing and blockers visible. Escalation paths and a simple Risk Register are used to manage issues that threaten schedule or scope.
+
+Quality assurance is enforced through automated unit, integration, and security tests in CI, pull request review policies, and a combination of manual testing for acceptance. Retrospectives after sprints, releases, or incidents capture learnings, generate prioritized action items, and feed improvements back into the backlog. For more detail on each step, see the other documents in this folder (project initiation, planning, execution & tracking, release & deployment, risk & communication, retrospective, and roles & personas).
+```
